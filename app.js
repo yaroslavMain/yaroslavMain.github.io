@@ -10,7 +10,7 @@ let btn = document.getElementById("btn");
 btn.addEventListener("click", function()  {
 	    tg.sendData([{
 		"name": document.getElementById("name").value,
-		"emai": document.getElementById("email").value,
+		"email": document.getElementById("email").value,
 		"tel": document.getElementById("tel").value,
 		"password": document.getElementById("password").value
 	}]);
